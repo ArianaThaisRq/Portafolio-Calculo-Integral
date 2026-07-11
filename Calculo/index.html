@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Cálculo Integral — Guía completa | Ariana Rivas</title>
+<meta name="description" content="Guía interactiva de Cálculo Integral: fracciones parciales, sustitución trigonométrica, áreas, volúmenes, longitud de curva, cinemática e integrales. By Ariana Rivas.">
+<meta name="author" content="Ariana Rivas">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://arianathaisrq.github.io/Portafolio-Calculo-Integral/Calculo/">
+
+<!-- Open Graph (vista previa en redes sociales) -->
+<meta property="og:type"        content="website">
+<meta property="og:title"       content="Cálculo Integral — Guía completa">
+<meta property="og:description" content="Guía interactiva de Cálculo Integral con ejercicios resueltos, videos y fórmulas clave. By Ariana Rivas.">
+<meta property="og:url"         content="https://arianathaisrq.github.io/Portafolio-Calculo-Integral/Calculo/">
+<meta property="og:image"       content="https://arianathaisrq.github.io/Portafolio-Calculo-Integral/Calculo/icon.png">
+<meta property="og:locale"      content="es_MX">
+
+<!-- Twitter Card -->
+<meta name="twitter:card"        content="summary">
+<meta name="twitter:title"       content="Cálculo Integral — Guía completa">
+<meta name="twitter:description" content="Guía interactiva de Cálculo Integral con ejercicios resueltos y videos.">
+<meta name="twitter:image"       content="https://arianathaisrq.github.io/Portafolio-Calculo-Integral/Calculo/icon.png">
+
+<link rel="icon" href="icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="mobile-topbar">
+  <button class="hamburger" id="hamburger" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="sidebar">
+    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <rect x="2" y="5"  width="16" height="2" rx="1" fill="currentColor"/>
+      <rect x="2" y="9"  width="16" height="2" rx="1" fill="currentColor"/>
+      <rect x="2" y="13" width="16" height="2" rx="1" fill="currentColor"/>
+    </svg>
+  </button>
+  <span class="mobile-title"><span class="brand-icon">&#8747;</span> <span id="mobile-title-text">Cálculo Integral</span></span>
+</header>
+
+<div class="overlay" id="overlay"></div>
+
+<!-- Botón toggle para desktop (colapsar/expandir sidebar) -->
+<button class="desktop-toggle" id="desktop-toggle" type="button" aria-label="Colapsar menú lateral" aria-expanded="true" aria-controls="sidebar">
+  <svg viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <path d="M9 2L4 7L9 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+</button>
+
+<nav class="sidebar" id="sidebar" aria-label="Temas de cálculo integral">
+  <div class="sidebar-header">
+    <span class="brand-icon">&#8747;</span>
+    <div>
+      <p class="brand-title">Cálculo Integral</p>
+      <p class="brand-subtitle">By Ariana Rivas</p>
+    </div>
+    <button class="sidebar-close" id="sidebar-close" type="button" aria-label="Cerrar menú">&#x2715;</button>
+  </div>
+
+  <div class="sidebar-nav" id="sidebar-nav"></div>
+
+  <div class="prereq-box">
+    <h2>Temas base previos</h2>
+    <ul id="prereq-list"></ul>
+  </div>
+</nav>
+
+<main class="content" id="content"></main>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
