@@ -649,7 +649,7 @@ const DATA = {
           tipo: "texto",
           titulo: "¿Qué es la longitud de una curva?",
           html: `
-            <p>La longitud de una curva es una aplicación del cálculo que nos permite determinar la distancia total recorrida a lo largo de una función f(x) en un intervalo dado [a, b], como si estuviéramos "estirando" la curva y midiéndola con una regla[cite: 5].</p>`
+            <p>La longitud de una curva es una aplicación del cálculo que nos permite determinar la distancia total recorrida a lo largo de una función f(x) en un intervalo dado [a, b], como si estuviéramos "estirando" la curva y midiéndola con una regla.</p>`
         },
         {
           tipo: "texto",
@@ -657,15 +657,12 @@ const DATA = {
           html: `
             <p>A diferencia de una línea recta, donde la distancia es fácil de medir, una curva cambia de dirección constantemente. Para resolver esto, el cálculo utiliza un enfoque similar al de la distancia entre dos puntos (Pitágoras)[cite: 5]:</p>
             <ul>
-              <li>Se divide la curva en segmentos infinitesimales extremadamente pequeños[cite: 5].</li>
-              <li>Cada segmento se aproxima como una pequeña línea recta (hipotenusa de un triángulo minúsculo)[cite: 5].</li>
-              <li>Sumamos (integramos) la longitud de todos estos segmentos para obtener el total[cite: 5].</li>
+              <li>Se divide la curva en segmentos infinitesimales extremadamente pequeños.</li>
+              <li>Cada segmento se aproxima como una pequeña línea recta (hipotenusa de un triángulo minúsculo).</li>
+              <li>Sumamos (integramos) la longitud de todos estos segmentos para obtener el total.</li>
             </ul>`
         },
-        {
-          tipo: "imagen",
-          html: `<div style="text-align: center; margin: 1rem 0;"><img src="10.png" style="max-width: 100%; height: auto; border-radius: 8px;" alt="Aproximación de longitud de arco"></div>`
-        },
+       
         {
           tipo: "texto",
           titulo: "La fórmula clave",
