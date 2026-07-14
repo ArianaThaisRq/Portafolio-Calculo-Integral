@@ -655,7 +655,7 @@ const DATA = {
           tipo: "texto",
           titulo: "El concepto matemático",
           html: `
-            <p>A diferencia de una línea recta, donde la distancia es fácil de medir, una curva cambia de dirección constantemente. Para resolver esto, el cálculo utiliza un enfoque similar al de la distancia entre dos puntos (Pitágoras)[cite: 5]:</p>
+            <p>A diferencia de una línea recta, donde la distancia es fácil de medir, una curva cambia de dirección constantemente. Para resolver esto, el cálculo utiliza un enfoque similar al de la distancia entre dos puntos (Pitágoras):</p>
             <ul>
               <li>Se divide la curva en segmentos infinitesimales extremadamente pequeños.</li>
               <li>Cada segmento se aproxima como una pequeña línea recta (hipotenusa de un triángulo minúsculo).</li>
@@ -667,7 +667,7 @@ const DATA = {
           tipo: "texto",
           titulo: "La fórmula clave",
           html: `
-            <p>Para una función f(x) que es derivable en el intervalo [a, b], la longitud de arco L se calcula mediante la siguiente integral[cite: 5]:</p>
+            <p>Para una función f(x) que es derivable en el intervalo [a, b], la longitud de arco L se calcula mediante la siguiente integral:</p>
             <p style="text-align: center; font-size: 1.2em;"><strong>L = ∫ₐᵇ √(1 + [f'(x)]²) dx</strong></p>`
         },
         {
